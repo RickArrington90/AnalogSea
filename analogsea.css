@@ -1,0 +1,116 @@
+body * {
+    box-sizing: border-box;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #298eea;
+    padding-top: 60px;
+    font-family: 'Roboto', helvetica, sans-serif;
+}
+
+.logo {
+	display: block;
+	height: 35px;
+	width: auto;
+    margin: 0 auto 30px;
+}
+
+.analog-signup {
+	width: 400px;
+	padding:40px;
+	background: white;
+    margin: 0 auto;
+    border-radius: 3px;
+    
+}
+
+.analog-signup legend {
+  	text-align: center;
+ 	margin: 0 auto 45px;
+ 	color: #565656;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+input[type='email'],
+input[type='password'],
+button[type='submit'] {
+	display: block;
+    width: 320px;
+    border: #e7e7e7 2px solid;
+    padding: 15px;
+    margin: 20px 0px;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: opacity 0.4s;
+
+}   
+
+input[type='email']:focus,
+input[type='password']:focus,
+button[type='submit']:focus {
+	border-color: #E7E7E7;
+
+}
+
+button[type='submit'] {
+	color: white;
+	height: 55px;
+	background: #15CD72;
+    border: 0;
+    font-size: 22px;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 0;
+}  
+
+button[type='submit']:hover {
+	background-color: #0CB863;
+	webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s
+}
+
+.analog-signup p{
+	color: #999;
+	text-align: center;
+	font-size: 14px;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.analog-signup a {
+	color: #999;
+}
+
+.analog-signup a:hover {
+	border-color: #999;
+	color: #777;
+}
+
+/* footer */
+
+.footer {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-weight: 600;
+
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover{
+	color: #E7F1F9;
+}
+
+.footer p {
+	margin-bottom: 40px;
+}
